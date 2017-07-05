@@ -121,6 +121,94 @@
                 padding-left: 15px;
                 font-size: 0.85rem;
             }
+            
+            a {
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #252525;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d3aa72;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text-field {
+  display: inline-block;
+  width: 47%;
+  height: 50px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  -webkit-transition: border 200ms linear;
+  transition: border 200ms linear;
+}
+
+.text-field:focus {
+  border: 1px solid #d3aa72;
+}
+
+.text-field.full-width {
+  width: 96%;
+}
+
+.submit-button {
+  display: block;
+  width: 96%;
+  margin-top: 20px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #d3aa72;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #000;
+}
+
+.radio-button-field {
+  display: inline-block;
+}
+
+.field-label {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.field-label._2 {
+  margin-top: 20px;
+}
+
+.text-field-wrapper {
+  display: inline;
+}
+
+.radio-wrapper {
+  padding-left: 7px;
+}
+
+.radio-btn-label {
+  margin-right: 10px;
+}
+
+.mauticform-errormsg {
+  color: red;
+}
+
+@media (max-width: 479px) {
+  .text-field {
+    width: 96%;
+  }
+}
 
             .giveaway-legal {
                 margin-top: 7px;
@@ -168,103 +256,6 @@
                 .page-intro-heading {
                     font-size: 1.4rem;
                     line-height: 1.1rem;
-                }
-            }
-
-            img {
-                user-drag: none;
-                user-select: none;
-                -moz-user-select: none;
-                -webkit-user-drag: none;
-                -webkit-user-select: none;
-                -ms-user-select: none;
-            }
-
-            a {
-                -webkit-transition: color 200ms linear;
-                transition: color 200ms linear;
-                color: #252525;
-                text-decoration: underline;
-            }
-
-            a:hover {
-                color: #d3aa72;
-            }
-
-            label {
-                display: block;
-                margin-bottom: 5px;
-            }
-
-            .text-field {
-                display: inline-block;
-                width: 47%;
-                height: 50px;
-                margin-right: 6px;
-                margin-bottom: 20px;
-                margin-left: 6px;
-                -webkit-transition: border 200ms linear;
-                transition: border 200ms linear;
-            }
-
-            .text-field:focus {
-                border: 1px solid #d3aa72;
-            }
-
-            .text-field.full-width {
-                width: 96%;
-            }
-
-            .submit-button {
-                display: block;
-                width: 96%;
-                margin-top: 20px;
-                margin-right: 6px;
-                margin-left: 6px;
-                padding-top: 16px;
-                padding-bottom: 16px;
-                background-color: #d3aa72;
-                -webkit-transition: background-color 200ms linear;
-                transition: background-color 200ms linear;
-                text-align: center;
-            }
-
-            .submit-button:hover {
-                background-color: #000;
-            }
-
-            .radio-button-field {
-                display: inline-block;
-            }
-
-            .field-label {
-                margin-bottom: 5px;
-                font-weight: 400;
-            }
-
-            .field-label._2 {
-                margin-top: 20px;
-            }
-
-            .text-field-wrapper {
-                display: inline;
-            }
-
-            .radio-wrapper {
-                padding-left: 7px;
-            }
-
-            .radio-btn-label {
-                margin-right: 10px;
-            }
-
-            .mauticform-errormsg {
-                color: red;
-            }
-
-            @media (max-width: 479px) {
-                .text-field {
-                    width:96%;
                 }
             }
 
