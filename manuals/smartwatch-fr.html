@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <title>Timothy Stone Smartwatch Manual</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="/css/base.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        body {
+            font-family: 'Proxima Nova', sans-serif;
+            color: #818181;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #d3aa72;
+            font-size: 35.2px;
+            line-height: 43.2px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        a {
+            color: #1c1c1c;
+            text-decoration: underline;
+        }
+        
+        .logo {
+            display: block;
+            width: 200px;
+            margin: 10px auto 5px;
+        }
+        
+        .menu-wrapper {
+            margin-bottom: 35px;
+            border-bottom: 2px solid #c1c1c1;
+            text-align: center;
+        }
+        
+        .menu-item {
+            display: inline-block;
+            padding: 5px 30px 15px;
+            -webkit-transition: color 200ms linear;
+            transition: color 200ms linear;
+            color: #1c1c1c;
+            font-size: 13px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        .menu-item:hover {
+            color: #d3aa72;
+        }
+        
+        .container {
+            display: block;
+            max-width: 580px;
+            margin-right: auto;
+            margin-bottom: 25px;
+            margin-left: auto;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        
+        .heading-paragraph {
+            margin-bottom: 25px;
+            font-size: 13.5px;
+            line-height: 22.5px;
+            text-align: center;
+        }
+        
+        .legal {
+            display: inline;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        
+        .download-link {
+            position: absolute;
+            left: 0px;
+            top: 21px;
+            right: 0px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            color: #d3aa72;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        
+        .download-wrapper {
+            position: relative;
+            margin-bottom: 49px;
+            padding-top: 25px;
+            padding-bottom: 30px;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            -webkit-transition: -webkit-filter 200ms linear, -webkit-transform 200ms linear;
+            transition: -webkit-filter 200ms linear, -webkit-transform 200ms linear;
+            transition: filter 200ms linear, transform 200ms linear;
+            transition: filter 200ms linear, transform 200ms linear, -webkit-filter 200ms linear, -webkit-transform 200ms linear;
+            text-align: center;
+        }
+        
+        .download-wrapper:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        
+        .download-icon {
+            display: block;
+            width: 100px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .half-box {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            width: 50%;
+            padding: 20px;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: stretch;
+            -webkit-align-items: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgba(0, 0, 0, .13);
+        }
+        
+        .large-container {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            max-width: 1440px;
+            margin: 50px auto 25px;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 991px) {
+            h1 {
+                font-size: 29.2px;
+            }
+        
+            .logo {
+                width: 175px;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 26.2px;
+            }
+        
+            .logo {
+                width: 125px;
+            }
+        
+            .menu-item {
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+        
+            .half-box {
+                width: 100%;
+            }
+        
+            .large-container {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 479px) {
+            h1 {
+                font-size: 24.2px;
+                line-height: 35.2px;
+            }
+        }
+        @font-face {
+          font-family: 'Proxima Nova';
+          src: url('/fonts/ProximaNova-Regular.woff') format('woff'), url('/fonts/ProximaNova-Regular.otf') format('opentype');
+          font-weight: 400;
+          font-style: normal;
+        }
+        </style>
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1677283809202394'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1677283809202394&ev=PageView&noscript=1"></noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->         
+        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+        <body>
+            <div class="logo w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 400">
+                    <path d="M66 280.8H35v-5.9h68.7v5.9h-31v79.9H66v-79.9zm47.3 79.9v-85.9h6.5v85.9h-6.5zm97.3-76.4l-32.9 50.3h-2.2l-33.1-50.3v76.3h-6.6v-85.9h7.9l32.9 50.1 32.5-50.1h8.1v85.9h-6.5v-76.3zm105.3 33.5c-.1 22.6-14.5 44.3-43.3 44.3-28.8 0-43.3-21.8-43.3-44.5 0-23.1 14.4-44.2 43.3-44.2 29 0 43.4 21.2 43.3 44.4zm-80.1-.1c.1 19.4 12.4 38.3 36.8 38.3 24.5 0 36.9-18.9 36.9-38.3 0-19.9-12.3-38.2-36.9-38.2-24.7 0-36.9 18-36.8 38.2zM348 280.8h-31v-5.9h68.7v5.9h-31v79.9H348v-79.9zm108.6 79.9v-39h-54.7v39h-6.6v-85.9h6.6v40.9h54.7v-40.9h6.6v85.9h-6.6zm48.6-34.4l-33.5-51.4v-.1h7.7l29.1 45.2 29.2-45.2h7.7v.1l-33.6 51.4v34.4h-6.6v-34.4zm129.6-35c-6.3-10.1-16.3-11.5-26-11.7-10.1 0-26 3.7-26 17.4 0 10.9 11.8 13.5 26.3 16.2 16.6 3.2 33.7 6.1 33.7 24.7-.1 19.4-19.6 24.1-34 24.1-13.4 0-28.6-5.5-35.2-18.7l5.9-2.9c5.3 10.4 18.8 15.6 29.3 15.6 10.6 0 27.4-2.9 27.4-18.2.1-12.9-14.1-15.7-28.2-18.4-15.7-3.1-31.8-6.3-31.8-22.1-.4-18.2 18.5-23.8 32.6-23.8 12.3 0 22.9 2 31.4 14.6l-5.4 3.2zm43.4-10.5h-31v-5.9h68.7v5.9h-31v79.9h-6.6v-79.9zm130.1 37c-.1 22.6-14.5 44.3-43.3 44.3-28.8 0-43.3-21.8-43.3-44.5 0-23.1 14.4-44.2 43.3-44.2s43.4 21.2 43.3 44.4zm-80.2-.1c.1 19.4 12.4 38.3 36.8 38.3 24.5 0 36.9-18.9 36.9-38.3 0-19.9-12.3-38.2-36.9-38.2-24.6 0-36.9 18-36.8 38.2zm95.8-42.9l57.8 71.1v-71.1h6.5v85.9h-2.6l-57.9-70.9v70.9H821v-85.9h2.9zm86.9 39.6h50.3v6h-50.3v33.9H965v6.4h-60.7v-85.9h59.3v6.3h-52.8v33.3z" fill="#58595B"/>
+                    <g fill="#D3AA72">
+                        <path d="M500 69l-38.8 38.7h16l17.1-17.1v80.5l5.7 5.6 5.7-5.6V90.6l17.1 17.1h16"/>
+                        <path d="M484.8 128.4v-11.2h-55.2L500 46.7l61 61h16l-77-77-92.1 92.1 5.6 5.6"/>
+                        <path d="M515.2 117.2v11.3h55.2L500 198.9l-61-61h-16.1L500 215l92.1-92.2-5.6-5.6"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="menu-wrapper">
+                <a target="_blank" href="https://timothystone.com/catalog" class="menu-item">Collections</a>
+                <a target="_blank" href="https://timothystone.com/women-collections" class="menu-item w-hidden-small w-hidden-tiny">Women</a>
+                <a target="_blank" href="https://timothystone.com/men-collections" class="menu-item w-hidden-small w-hidden-tiny">Men</a>
+                <a target="_blank" href="https://timothystone.com/about-us" class="menu-item">About</a>
+                <a target="_blank" href="https://timothystone.com/get-in-touch" class="menu-item">Contact</a>
+            </div>
+            <div class="container">
+                <h1>Timothy Stone Smartwatch manuel d'utilisation</h1>
+                <p class="heading-paragraph">Ci-dessous vous pouvez trouver toutes les informations concernant votre smartwatch Timothy Stone</p>
+            </div>
+            <div class="large-container">
+                <div class="half-box">
+                    <div class="download-wrapper">
+                        <div class="download-icon w-embed">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 33.29 33.29">
+                                <g fill="#D3AA72">
+                                    <path d="M16.65 24.8c-.28 0-.5-.24-.5-.5V13c0-.27.22-.5.5-.5.27 0 .5.23.5.5v11.3c0 .26-.23.5-.5.5z"/>
+                                    <path d="M16.65 24.8c-.13 0-.26-.06-.36-.16l-4.34-4.3c-.2-.2-.2-.52 0-.72s.5-.2.7 0l3.97 3.96 3.95-3.96c.2-.2.5-.2.7 0s.2.5 0 .7L17 24.65c-.1.1-.23.15-.35.15z"/>
+                                    <path d="M27.58 33.3H5.72c-1.38 0-2.5-1.13-2.5-2.5V2.5C3.2 1.12 4.32 0 5.7 0h15.87c.27 0 .5.22.5.5s-.23.5-.5.5H5.7c-.8 0-1.5.67-1.5 1.5v28.3c0 .82.7 1.5 1.5 1.5h21.9c.83 0 1.5-.68 1.5-1.5V8.7c0-.27.22-.5.5-.5s.5.23.5.5v22.1c0 1.37-1.12 2.5-2.5 2.5z"/>
+                                    <path d="M29.58 9.2h-8c-.26 0-.5-.22-.5-.5V.72c0-.28.24-.5.5-.5s.5.22.5.5V8.2h7.5c.27 0 .5.23.5.5s-.22.5-.5.5z"/>
+                                    <path d="M29.58 9.2c-.13 0-.26-.05-.36-.15l-8-8.2c-.18-.2-.17-.5.02-.7.2-.2.52-.2.7 0l8 8.2c.2.2.18.52 0 .7-.1.1-.24.15-.36.15z"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <a href="https://daks2k3a4ib2z.cloudfront.net/5802e47beb8f7e4e5aab3a1d/5a14ca8812d5720001cf301f_TS_SMARTWATCH-FR.pdf" class="download-link">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>Download Manual
+                        </a>
+                    </div>
+                </div>
+                <div class="half-box">
+                    <p class="heading-paragraph">Comment changer les langues sur une smartwatch Timothy Stone:</p>
+                    <div style="padding-top:56.17021276595745%;" class="w-embed w-video">
+                        <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FeL2mgIRMo2I%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeL2mgIRMo2I&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeL2mgIRMo2I%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="https://timothystone.com/legal" target="_blank" class="legal">Terms & Privacy Policy</a>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+            <script src="https://daks2k3a4ib2z.cloudfront.net/59e95013f9cd070001c88610/js/webflow.3366bdc1a.js" type="text/javascript"></script>
+            <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+        </body>
+</html>
